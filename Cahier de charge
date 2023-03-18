@@ -1,0 +1,38 @@
+Hire-Up Web
+En fait, Hire-Up web est un site qui va permettre à une entreprise (un employeur) de publier des offres d’emplois sur le site en question et aux chercheurs de postuler aux postes proposés par l’entreprise.
+
+
+Detail:
+FrontEnd:
+1- Antsa: (image 4 dans github)
+-  la creation de la page où l’user va postuler sa demande. 
+-  la création du contenu de la page dont la première partie va demander à l’user de mettre les information à propos de lui, la deuxième partie sa motivation, sa qualité et tous ses skills par rapport au job proposé et la troisième partie, on va demander à l’user de mettre son CV et sa LM sur un champ.
+-  Utilisation de l’API correspondante créé par les dev BackEnd.
+NB: toutes ses informations seront entrées par l’utilisateur à partir d’un input ou textarea.
+
+Ericson:
+-  création de la page d’acceuil de l’user ainsi que pour l’admin.
+- En effet, l’interface admin et l’interface utilisateur ne seront pas les mêmes. Puisque les utilisateurs peut seulement voir les publications tandis que l’admin peut en créer.
+- le sigle «A» en haut c’est en fonction du nom de l’utilisateur pendant le login, mais pour l’admin c’est toujours le sigle «Ad».
+-  Création des contenus et l’integration pour l’onglet «Nos équipes» et l’onglet «contact».
+- Dans l’onglet contact, il y aura un input et un bouton «envoyer» qui va permettre aux users d’envoyer un e-mail à l’employeur.
+NB:
+*   Dans l’onglet U-Acceuil, l’admin pourrait voir l’interface utilisateur.
+*  Sur la barre de recherche l’user peut chercher un metier si un offre sur ce metier  existe. (utiliser l’API correspondante)
+
+Nantenaina:
+-  création de la page d’authentification selon les maquettes.
+- Utiliser les API créées par les dev BackEnd pour ajouter les fonctionnalités: connexion vers la page admin ou simple user
+
+BackEnd:
+Amboara:
+-  création de dashboard.
+- création d’un API d’authentification.
+**  Tout d’abord, la mise en place d’un systeme d’authentification les employeurs superadmins et les utilisateurs.
+** Laravel va fournir une API d'authentification complète qui va permettre de créer des utilisateurs, de gérer les sessions, de définir des autorisations et des rôles.
+
+-  API de gestion des candidatures : création d’une API qui permet aux utilisateurs de postuler à des offres d'emploi en fournissant leurs informations de base et leur CV. Cette API peut également fournir des fonctionnalités de suivi des candidatures pour les employeurs superadmins, leur permettant de voir les candidatures en attente, acceptées ou refusées.
+
+Theresia:
+-   API de gestion des offres d'emploi : création d’ une API qui permet aux employeurs superadmins de créer, modifier et supprimer des offres d'emploi. Cette API peut également fournir des fonctionnalités de recherche et de filtrage pour aider les utilisateurs à trouver des offres d'emploi qui les intéressent.
+-  API de notifications : mettre en place une API de notification qui envoie des notifications par e-mail ou par message à la fois aux employeurs superadmins et aux utilisateurs lorsqu'une offre d'emploi est créée ou lorsqu'une candidature est reçue ou modifiée.
