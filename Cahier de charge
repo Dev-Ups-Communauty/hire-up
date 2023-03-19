@@ -22,7 +22,8 @@ NB:
 
 Nantenaina:
 -  création de la page d’authentification selon les maquettes.
-- Utiliser les API créées par les dev BackEnd pour ajouter les fonctionnalités: connexion vers la page admin ou simple user
+- Utiliser les API créées par les dev BackEnd pour ajouter les fonctionnalités: connexion vers la page admin ou simple user.
+- Pour toi Nantenaina si possible ajoute aussi une connexion vers google pour que ce sera le même que le mobile.
 
 BackEnd:
 Amboara:
